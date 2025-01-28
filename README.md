@@ -4,13 +4,13 @@
 
 Allow users to add custom tags to links.
 
-## 小鱼标签 (UTags) - 为链接添加用户标签
+## 小鱼标签 (UTags) - Add user tags to the link
 
-此扩展/油猴脚本允许用户为网站的链接添加自定义标签。比如，可以给论坛的用户或帖子添加标签。
+This extension/oil monkey script allows users to add custom tags to the links of the website. For example, you can add tags to users or posts in the forum.
 
-**UTags** = **Usertags**。**Userscript**, **Userstyle** 可以让用户自定义网站的功能和样式，**Usertags** 允许用户自定义网站的标签。
+**UTags** = **Usertags**。**Userscript**, **Userstyle** Users can customise the functions and styles of the website，**Usertags** Allow users to customise the logo of the website签。
 
-目前支持的网站
+Currently supported websites
 
 - [www.v2ex.com](https://www.v2ex.com/)
 - [greasyfork.org](https://greasyfork.org/) and [sleazyfork.org](https://sleazyfork.org/)
@@ -40,28 +40,28 @@ Allow users to add custom tags to links.
 - [douban.com](https://www.douban.com/)
 - And more. Click [here](https://greasyfork.org/scripts/460718-utags-add-usertags-to-links/feedback) to add more sites.
 
-## 安装
+## Fix
 
-- 类 Chrome 浏览器: 即将上架 Chrome 商店
-- Edge 浏览器: 即将上架 Edge 商店
-- Firefox 浏览器: 已上架 [Firefox Addon 商店](https://addons.mozilla.org/firefox/addon/utags/)，[点击这里](https://addons.mozilla.org/firefox/addon/utags/)安装。
-- 油猴脚本: [https://greasyfork.org/scripts/460718-utags-add-usertags-to-links](https://greasyfork.org/scripts/460718-utags-add-usertags-to-links)
-- [手动安装浏览器扩展](manual-installation.md)
+- Type Chrome Browser: Upcoming to the Chrome Store
+- Edge Browser: It will be on the shelves soon. Edge Store
+- Firefox Browser: On the shelves [Firefox Addon 商店](https://addons.mozilla.org/firefox/addon/utags/)，[Click here](https://addons.mozilla.org/firefox/addon/utags/)安装。
+- Oil Monkey Script: [https://greasyfork.org/scripts/460718-utags-add-usertags-to-links](https://greasyfork.org/scripts/460718-utags-add-usertags-to-links)
+- [Manually install browser extensions](manual-installation.md)
 
-## 使用方法
+## How to use
 
-- 鼠标移到帖子标题或用户名的上面，会显示标签图标。
+- Move the mouse to the top of the post title or user name, and the label icon will be displayed.
   ![screenshots](assets/screenshots-01.png)
 
-- 点击标签图标，输入标签，用逗号分开多个标签。
+- Click the label icon, enter the label, and separate multiple labels with commas.
   ![screenshots](assets/screenshots-02.png)
 
-- 帖子标题，用户名都可以设置标签。
+- The post title and user name can be labelled.
   ![screenshots](assets/screenshots-03.png)
 
-## 手机版截图
+## Screenshot of mobile version
 
-- 主题列表
+- List of topics
 
 ![screenshots](https://i.imgur.com/RBpOdzL.jpeg)
 
@@ -77,11 +77,11 @@ Allow users to add custom tags to links.
 
 ![screenshots](https://i.imgur.com/vwtalwQ.jpeg)
 
-- 功能设置
+- Function settings
 
 ![screenshots](https://i.imgur.com/SYbJxGe.jpeg)
 
-- 视频版演示
+- Video version of the demonstration
 
 📺 [YouTube](https://www.youtube.com/watch?v=zlNqk0nhLdI)
 
@@ -115,22 +115,24 @@ Allow users to add custom tags to links.
 
 ![screenshots](https://assets.bestxtools.com/i/pckyc)
 
-## 功能特点
+## Functional features
 
-- 在浏览的页面可以直接添加标签，保存标签时不会刷新页面
-- 不仅可以给用户打标签，还可以给帖子和节点打标签
-- 在[标签列表](https://utags.pipecraft.net/tags/)页面，可以看到有标签的用户和帖子，按更新顺序排序
-- 支持 Vimium 扩展，点击 'f' 键，标签图标按钮也会有提示，可以快速添加标签
-- 支持[数据导出、导入](https://utags.pipecraft.net/data/)
-- 支持导入 [v2ex user tag](https://greasyfork.org/scripts/437891-v2ex-user-tag) 油猴脚本的数据
-- 除了 v2ex，以后还会支持更多的网站
+- You can add tags directly to the pages you browse, and the page will not be refreshed when saving the tags.
 
-### 彩蛋
+- Not only users can be tagged, but also posts and nodes can be tagged.
+- In [the list of tags](https://utags.pipecraft.net/tags/)On the page, you can see tagged users and posts, in the order of update.Sequence
+- Support Vimium extension, click the 'f' key, and the label icon button will also have prompts, and you can quickly add tags.
+- Support [data export, import](https://utags.pipecraft.net/data/)
+- Support import [v2ex user tag](https://greasyfork.org/scripts/437891-v2ex-user-tag) Data of Oil Monkey Script
+- In addition to v2ex, more websites will be supported in the future.
+  
+### Coloured eggs
 
-- 标签设置为 'sb'，该用户的帖子或评论都会半透明显示，可以方便跳过价值低的内容
-- 标签设置为 'block'，该用户的帖子或评论都会被隐藏，眼不见，心不烦
-- 更多特殊标签，比如：标题党, 推广, 无聊, 忽略, 已阅, hide, 隐藏, 不再显示, 热门, 收藏, 关注, 稍后阅读
+- The tag is set to 'sb', and the user's posts or comments will be displayed translucently, which is convenient to skip low-value content.
+- If the tag is set to 'block', the user's posts or comments will be hidden, invisible and not upset.
+- More special tags, such as: title party, promotion, boring, ignore, read, hide, hide, no longer show, popular, favourite, follow, read later
 
+  
 ## Release Notes
 
 - 0.9.5
@@ -237,7 +239,7 @@ Allow users to add custom tags to links.
 - 0.1.4
   - 支持给 www.v2ex.com 节点添加标签
 - 0.1.2
-  - 解决 Firefox 浏览器不支持 'sb', 'block' 等标签的特殊功能的问题
+  - Solve the problem that Firefox browser does not support 'sb', 'block' The problem of the special function of the label
 - [See more](release-notes/readme.md)
 
 ## Roadmap
